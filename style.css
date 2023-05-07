@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #240046;
+    background-image: url("images/BG1.jpg");
+}
+.Center{
+    text-align: center;
+    margin-top: 10%;
+    display: block;
+}
+.BKNG{
+    border-radius: 12px;
+    font-size: 40px;
+    margin-left: 50vw;
+    margin-right: 5vw;
+    margin-top: 5vw;
+    background-color: transparent;
+    border-color: #000000;
+    border-width: 8px;
+    font-weight: bold;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.NS{
+    border-radius: 12px;
+    font-size: 40px;
+    margin-top: 10vw;
+    margin-left: 50vw;
+    margin-right: 5vw;
+    background-color: transparent;
+    border-color: #000000;
+    border-width: 8px;
+    font-weight: bold;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.BKNG:hover, .NS:hover{
+    background-color: #000000;
+    color: white;
+    opacity: 0.6;
+}
+h5{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: Maven Pro;
+    background-color: rgb(93, 95, 97);
+}
+
+
+
+

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,#10002b,#e0aaff);
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: Maven Pro;
+    opacity: .7;
+}
+.FORM{
+    padding-left: 40%;
+    padding-top: 3%;
+}
+.Submit{
+    cursor: pointer;
+    display: flex;
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+    margin-left: 48%;
+    margin-top: 3%;
+    font-size: 30px;
+    font-family: Maven Pro;
+    color: aliceblue;
+    border-radius: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.8s;
+}
+label{
+    font-family: Maven Pro;
+    font-size: 20px;
+    text-align: center;
+}
+input{
+    border-width: 3px;
+    padding-left: 5px;
+    font-family: Maven Pro;
+    float: left;
+    font-size: 20px;
+    border-radius: 8px;
+    color: #10002b;
+    background-color: transparent;
+}
+a{
+    text-decoration: none;
+}
+form{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    justify-content: space-between;
+    font-family: Maven Pro;
+    width: 25rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 8px 5px 0 rgba(31, 38, 135, 0.36);
+    border-radius: 20px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    opacity: 0.6;
+}
+.Submit:hover{
+    background-color: #e0aaff;
+    color: black;
+}

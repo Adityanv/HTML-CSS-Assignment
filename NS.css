@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Maven Pro;
+}
+body{
+    background: linear-gradient(to right,#cdb4db,#a2d2ff) ;
+}
+h5{
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+    font-family: Maven Pro;
+    opacity: .7;
+    background-color: aliceblue;
+}
+.flex{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.flex > div{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    transition: 0.5s;
+}
+img{
+    height: 20rem;
+
+}
+.flex>div:hover{
+    cursor: pointer;
+    background-color:rgb(210, 229, 247); ;
+
+
+}
